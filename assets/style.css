@@ -106,12 +106,37 @@
 .Ourplants{
   text-align: center;
   word-spacing:10px;
+  font-size: 40px;
 }
 
 .ourgallery{
   text-align: center;
   word-spacing: 10px;
+  font-size: 40px;
 }
 .vegetable{
   border-radius: 5%;
 }
+
+.img-ratio{
+  aspect-ratio: 1920/512;
+  object-fit: cover;
+}
+
+
+
+.carousel-caption{
+
+  position: relative;
+  z-index: -1;
+  position: absolute;
+  z-index: 1;
+  bottom: calc((512px/2) - 80px);
+  left: calc((100vw/2) - 450px);
+  text-align: center;
+  background-color: rgba(22, 49, 20, 0.5);
+  color: rgb(237, 227, 227);
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px 4px rgb(218, 212, 212);
+}
+
