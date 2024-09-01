@@ -31,6 +31,18 @@ a {
   height: 2rem;
 }
 
+.subBtn {
+  width: 150px;
+  height: 50px;
+  color: #090909;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+}
+
 .navbar-toggler-icon {
   color: black;
 }
