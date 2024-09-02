@@ -49,7 +49,7 @@ a {
   width: 150px;
   height: 50px;
   color: #090909;
-  font-size: 18px;
+  font-size: 17px;
   border-radius: 0.5em;
   background: #e8e8e8;
   cursor: pointer;
@@ -112,20 +112,16 @@ body {
 /* rtl:end:ignore */ /* Featurettes
 ------------------------- */
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-} /* Thin out the marketing headings */
+  margin: 3rem 0; 
+}
+  /* Space out the Bootstrap <hr> more */
 /* rtl:begin:remove */
-.featurette-heading {
+/* .featurette-heading {
   letter-spacing: -0.05rem;
-} /* rtl:end:remove */ /* RESPONSIVE CSS
+} */ /* rtl:end:remove */ /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media (min-width: 40em) {
-  /* Bump up size of carousel content */
-  /*   .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  } */
+/* @media (min-width: 40em) {
+
   .featurette-heading {
     font-size: 50px;
   }
@@ -134,7 +130,7 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
-}
+} */
 /* Carsoul css end */
 .Ourplants {
   text-align: center;
@@ -254,3 +250,67 @@ nav:hover::after{
 .signup-form button:hover {
   background-color: #218838;
 }
+
+.survival-img {
+  width: 100%;
+
+  height: auto;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+}
+
+/* Desktop mode */
+
+@media (min-width: 992px) {
+  .survival-img {
+    width: 350px;
+  }
+}
+
+/* Tablet mode */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .survival-img {
+    width: 250px;
+  }
+}
+
+/* Mobile mode */
+
+@media (max-width: 767px) {
+  .survival-img {
+    width: 150px;
+  }
+}
+
+.offer-img {
+  width: 100%;
+  margin-bottom: 30px;
+  aspect-ratio:  1.75 / 1;;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+/* @media (min-width: 992px) {
+  .survival-img {
+    width: 80%; 
+    margin-left: 10%; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .survival-img {
+    width: 70%; 
+    margin-left: 15%; 
+  }
+}
+
+@media (max-width: 767px) {
+  .survival-img {
+    width: 100%; 
+    margin-left: 0; 
+  }
+} */
